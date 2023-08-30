@@ -1,0 +1,54 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #f4aef4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Promotion section */
+.promo {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gallery section */
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px ;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #efc08e;
+    padding: 10px;
+}
