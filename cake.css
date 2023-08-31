@@ -5,7 +5,7 @@ body, h1, h2, p {
 
 /* Basic styling for header */
 header {
-    background-color: #f4aef4;
+    background-color: #858383;
     text-align: center;
     padding: 20px;
 }
@@ -29,7 +29,7 @@ nav a {
 
 /* Promotion section */
 .promo {
-    background-color: #ffcc00;
+    background-color: #f9e17f;
     text-align: center;
     padding: 20px;
 }
@@ -38,6 +38,7 @@ nav a {
 .gallery {
     text-align: center;
     padding: 20px;
+    
 }
 
 .gallery img {
