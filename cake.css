@@ -38,15 +38,20 @@ nav a {
 /* Gallery section */
 .gallery {
     text-align: center;
-    padding: 20px;
+     padding: 20px; 
     
 }
 
-.gallery img {
+ .gallery img {
     max-width: 100%;
     height: auto;
     margin: 10px ;
-}
+} 
+.gallery video {
+    max-width: 100%;
+    height: auto;
+    margin: 10px ;
+} 
 
 /* Footer */
 footer {
