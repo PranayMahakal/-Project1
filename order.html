@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orders</title>
+    <title>Cake Order Form</title>
 </head>
 <body>
-    <h1>Development not done</h1>
+    <h1>Cake Order Form</h1>
+    <form action="process_order.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="cakeType">Cake Type:</label>
+        <select id="cakeType" name="cakeType" required>
+            <option value="birthday">Birthday Cake</option>
+            <option value="wedding">Wedding Cake</option>
+            <option value="anniversary">Anniversary Cake</option>
+            <option value="custom">Custom Cake</option>
+        </select><br><br>
+
+        <label for="cakeSize">Cake Size:</label>
+        <input type="text" id="cakeSize" name="cakeSize" required><br><br>
+
+        <label for="cakeFlavor">Cake Flavor:</label>
+        <input type="text" id="cakeFlavor" name="cakeFlavor" required><br><br>
+
+        <label for="message">Special Instructions:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit Order">
+    </form>
 </body>
 </html>
